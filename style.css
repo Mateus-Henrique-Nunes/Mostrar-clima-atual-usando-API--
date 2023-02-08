@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,violet, rgb(73, 179, 179));
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30vw;
+    max-width: 300px;
+    min-width: 250px;
+    height: 50vh;
+    min-height: 350px;
+    border-radius: 30px;
+    border: solid white 5px;
+    padding: 15px;
+   background-image: linear-gradient(to bottom,violet, rgb(73, 179, 179));
+    
+}
+
+input{
+    margin-top: 45px;
+    width: 70%;
+    min-height: 10%;
+    border-radius: 15px;
+    text-align: center;
+    border:solid 3px blueviolet ;
+
+}
+
+button{
+    padding: 9px;
+    background-color: rgb(211, 43, 211);
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(59, 57, 57);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.divider{
+    background-color: white;
+    height: 1.5px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.containerB{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.containerC{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+svg{
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+ 
+}
+
+img{
+    visibility: hidden;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.imgWeather{
+    width: 40px;
+    height: 40px;
+}
+
+h4{
+    margin-top: 10px;
+    margin-right: 9px;
+}
+
+p{
+     margin-right: 9px;
+     margin-top: 5px;
+}
